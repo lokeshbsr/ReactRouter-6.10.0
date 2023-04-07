@@ -11,6 +11,8 @@ const Home = () => (
     'Outlet'
     <br />
     4.Routing Structure depends on the developer.
+    <br />
+    5.Removes sub layouts pyramid by using single {`${'<Outlet />'}`}
     <p>
       ***********************************************************************************
     </p>
