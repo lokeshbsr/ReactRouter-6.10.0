@@ -35,6 +35,25 @@ const Home = () => (
       react-dom@18.2.0
       <br />
     </div>
+    <p>
+      *******************************************************************************************
+    </p>
+    <div>
+      <strong>Migrating Points to remember:</strong>
+      <br />
+      1.Remove Redirect inside Switch to Route.
+      <br />
+      2.Remove history and place it with useNavigation
+      <br />
+      3.convert all your {`${'<Switch>'}`} elements to {`${'<Routes>'}`}
+      <br />
+      4.RegExp-style route paths are not valid in v6 <br />
+      5.Pass state as a separate prop in {`${'<Link />'}`} and acn get by using
+      useLocation in the linked component.
+      <br />
+      6.useNavigate insatead of useHistory <br />
+      7.Replace UseRouteMatch with useMatch <br />
+    </div>
   </div>
 );
 
