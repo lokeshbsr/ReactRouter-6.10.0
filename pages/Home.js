@@ -48,7 +48,7 @@ const Home = () => (
       3.convert all your {`${'<Switch>'}`} elements to {`${'<Routes>'}`}
       <br />
       4.RegExp-style route paths are not valid in v6 <br />
-      5.Pass state as a separate prop in {`${'<Link />'}`} and acn get by using
+      5.Pass state as a separate prop in {`${'<Link />'}`} and can get by using
       useLocation in the linked component.
       <br />
       6.useNavigate insatead of useHistory <br />
